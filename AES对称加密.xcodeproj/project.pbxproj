@@ -15,6 +15,7 @@
 		674D6CD01C19492400E52DCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 674D6CCE1C19492400E52DCA /* LaunchScreen.storyboard */; };
 		674D6CDB1C19492400E52DCA /* AES____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 674D6CDA1C19492400E52DCA /* AES____Tests.m */; };
 		674D6CE61C19492400E52DCA /* AES____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 674D6CE51C19492400E52DCA /* AES____UITests.m */; };
+		674D6CF51C19499F00E52DCA /* NSData+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 674D6CF41C19499F00E52DCA /* NSData+Encryption.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		674D6CE11C19492400E52DCA /* AES对称加密UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AES对称加密UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		674D6CE51C19492400E52DCA /* AES____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AES____UITests.m"; sourceTree = "<group>"; };
 		674D6CE71C19492400E52DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		674D6CF31C19499F00E52DCA /* NSData+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Encryption.h"; sourceTree = "<group>"; };
+		674D6CF41C19499F00E52DCA /* NSData+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encryption.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				674D6CC31C19492400E52DCA /* AppDelegate.h */,
 				674D6CC41C19492400E52DCA /* AppDelegate.m */,
+				674D6CF31C19499F00E52DCA /* NSData+Encryption.h */,
+				674D6CF41C19499F00E52DCA /* NSData+Encryption.m */,
 				674D6CC61C19492400E52DCA /* ViewController.h */,
 				674D6CC71C19492400E52DCA /* ViewController.m */,
 				674D6CC91C19492400E52DCA /* Main.storyboard */,
@@ -273,6 +278,7 @@
 				674D6CC81C19492400E52DCA /* ViewController.m in Sources */,
 				674D6CC51C19492400E52DCA /* AppDelegate.m in Sources */,
 				674D6CC21C19492400E52DCA /* main.m in Sources */,
+				674D6CF51C19499F00E52DCA /* NSData+Encryption.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
